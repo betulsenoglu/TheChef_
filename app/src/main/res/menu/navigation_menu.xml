@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recipes"
+        android:title="Recipes"
+        android:icon="@drawable/ic_restaurant_black_24dp">
+
+    </item>
+    <item
+        android:id="@+id/ingredients"
+        android:title="Ingredients"
+        android:icon="@drawable/ic_restaurant_black_24dp">
+
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/ic_power_settings_new_black_24dp">
+
+    </item>
+</menu>

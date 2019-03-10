@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.betulsenoglu.thechef.ingredients"
+    android:id="@+id/drawerlayout"
+    android:background="@drawable/gradient1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtchoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="CHOOSE WHAT YOU HAVE!"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDairy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:text="Dairy"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check1"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Butter"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Eggs"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Milk"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Cheddar"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check5"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Parmesan"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check6"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Flour"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Pasta"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check8"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Swiss"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check9"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Cream"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textVegs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="Vegetables"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check10"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Garlic"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check11"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Onion"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check12"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Lentil"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check13"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Parsley"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check14"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Potato"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check15"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Lettuce"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check16"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Paste"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check17"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Tomato"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check18"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Olive"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Carrots"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check20"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Broccoli"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check21"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Salads"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+        </TableLayout>
+        <TextView
+            android:id="@+id/textMeats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="Meats"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check22"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Sausage"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+                <CheckBox
+                    android:id="@+id/check23"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="BeafSteak"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check24"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Bacon"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/check25"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="Beef"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check26"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="CornBeef"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/check27"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/salmon"
+                    android:fontFamily="casual"
+                    android:text="ChicBroth"
+                    android:textColor="@color/colorText"
+                    android:textSize="16dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn1"
+            android:elevation="4dp"
+            android:fontFamily="casual"
+            android:onClick="cbtnlicked"
+            android:text="GO AHEAD!"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
