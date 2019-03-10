@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
         Boolean session = preferences.getBoolean("session", false);
-        if (session){
+      /*  if (session){
             startActivity(new Intent(MainActivity.this, hellopage.class));
-        }
+        }*/
 
         }
         public void onClick(View v) {
